@@ -1,0 +1,40 @@
+{
+  "name": "@desuuuu/jrpc-transport-tcp",
+  "version": "1.0.0",
+  "description": "JSON-RPC TCP transport for @desuuuu/jrpc-client",
+  "main": "index.js",
+  "dependencies": {
+    "check-types": "^7.4.0"
+  },
+  "devDependencies": {
+    "docma": "^3.1.0"
+  },
+  "peerDependencies": {
+    "@desuuuu/jrpc-client": ">=1.0.0"
+  },
+  "scripts": {
+    "docs": "docma -c ./docma.json"
+  },
+  "engines": {
+    "node": ">=7.10.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desuuuu/jrpc-transport-tcp.git"
+  },
+  "keywords": [
+    "jrpc-transport",
+    "json-rpc",
+    "json",
+    "rpc",
+    "client",
+    "tansport",
+    "tcp"
+  ],
+  "author": "Desuuuu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/desuuuu/jrpc-transport-tcp/issues"
+  },
+  "homepage": "https://github.com/desuuuu/jrpc-transport-tcp#readme"
+}
